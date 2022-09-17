@@ -1,0 +1,24 @@
+.myWrapper {
+    padding:30px;
+    background-color: lightgray;
+}
+
+.myTable {
+    width: 500px;
+    border-collapse:collapse;
+    border-color: #F7F7F7;
+ }
+ .myTable tr td {
+    padding : 10px;
+    
+
+ }
+.orangeCell {
+    background-color: #F7D668;
+}
+.turquoise-row {
+    background-color: #28AEA3;
+}
+.blue-row { 
+    background-color: #166298;
+}

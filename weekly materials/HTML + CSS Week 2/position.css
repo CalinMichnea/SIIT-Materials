@@ -1,0 +1,58 @@
+.wrapper {
+    border: 1px solid red;
+    height: 600px;
+    margin: 50px;
+    position: relative;
+    z-index: 1;
+}
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 3;
+}
+
+.blue {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.wrapper-with-scroll {
+    border : 1px solid black;
+    height:400px;
+    margin :50px;
+    overflow-y: scroll;
+    position: relative;
+}
+.huge-container { 
+    padding : 10px;
+}
+
+.fixed-red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+   
+}
+
+.sticky-blue {
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+    left: 200px;
+}

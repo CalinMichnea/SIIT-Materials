@@ -1,0 +1,78 @@
+.Background {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Modal {
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .InputBar {
+    padding-left: 5%;
+ }
+  input {
+    width: 90%;
+    height: 13%;
+  }
+
+ a {
+    text-decoration: none;
+ }
+
+.xButton:hover {
+    transform: scale(1.1);
+}
+
+ .ModalTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    font-size: larger;
+ }
+.xButton {
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.BottomButtons {
+      padding: 10%;
+      display: flex;
+      justify-content: flex-end;
+}
+
+.BottomButtons button:hover {
+    transform: scale(1.1);
+}
+
+
+.Submit {
+    padding: 5% 0% 5% 5%;
+}
+.Submit button {
+    background-color: rgb(86, 64, 222);
+    border: 1px solid black;
+    color: white;
+    height: 150%;
+}
+
+.Close { 
+    padding: 5% 5% 5% 0%;
+}
+.Close button {
+    background-color: white;
+    border: none;
+    color: rgb(140, 77, 216);
+    height: 150%;
+}
+
+

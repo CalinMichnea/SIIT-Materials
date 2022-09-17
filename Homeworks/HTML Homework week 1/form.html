@@ -1,0 +1,83 @@
+<html>
+<title>FORM</title>
+<head></head>
+<body bgcolor="lightgray">
+    <header style="background-color:black;">
+        <h1 style="text-align:center; font-size: 60px; font-style: oblique; color: aliceblue;">Contact Form</h1>
+    </header>
+    <nav style="margin:30px; margin-left:300px; margin-right:300px; background-color: darkgray;">
+        <a href="Index.html" style="font-size: 30px; margin: 50px; color: rgb(0, 0, 0); text-decoration: none;">HOME</a>|     
+        <a href="" style="font-size: 30px; margin: 50px; color:rgb(0, 0, 0); text-decoration: none;">CONTACT</a>|   
+        <a href="" style="font-size: 30px; margin: 50px; color:rgb(0, 0, 0); text-decoration: none;">ABOUT</a>
+        |<a href="" style="font-size: 30px; margin: 50px; color:rgb(0, 0, 0); text-decoration: none;">LOG IN</a>
+    </nav>
+    <hr>
+    <form style="margin-left:600px; margin-right:600px;">
+        <fieldset style="background-color:gray;"><legend><b style="font-size:25px;">Personal Information</b></legend>
+            <label for="FirstName"><b style="font-size:20px;">First Name</b></label>
+            <input type="text" name="FirstName" id="FirstName">
+            <br><br>
+            <label for="LastName"><b style="font-size:20px;">Last Name</b></label>
+            <input type="text" name="FirstName" id="LastName">
+            <br><br>
+            <label for="name"><b style="font-size:20px;">Gender</b></label>
+            <input name="gender" type="radio" id="gm" value="m">
+            <label for="gm">Male</label>
+            <input name="gender" type="radio" id="gf" value="f">
+            <label for="gf">Female</label>
+            <br><br>
+            <label for="Phone"><b style="font-size:20px;">Phone</b></label>
+            <input type="text" name="phone" id="Phone">
+            <br><br>
+            <label for="Email"><b style="font-size:20px;">Email</b></label>
+            <input type="text" name="Email" id="Email">
+        </fieldset>
+        <fieldset style="background-color:gray;"><legend><b style="font-size:25px;">Experience Information</b></legend>
+            <label for="Number"><b style="font-size:15px;">Unique Writer Number</b></label>
+            <input type="password" name="Number">
+            <br><br>
+            <label for="Blog"><b style="font-size:20px;">Please choose your writing filed</b></label>
+            <br><br>
+            <select multiple name="Blog" id="Blog">
+                <option value="1">Astronomy</option>
+                <option value="2">Gaming</option>
+                <option value="3">News</option>
+                <option value="3">Cooking</option>
+            </select>
+            <br><hr>
+            <label for="work"><b style="font-size:15px;">Years of writing experience:</b></label>
+            <br>
+            <select id="work" name="work">
+            <option>1 year</option>
+            <option>2 years</option>
+            <option>3 or more years</option>
+            </select>
+            <p><b style="font-size:15px;">How did you find out about our website?</b></p>
+            <input type="checkbox" id="FB">
+            <label for="FB">Facebook</label><br>
+            <input type="checkbox" id="IN">
+            <label for="IN">Instagram</label><br>
+            <input type="checkbox" id="LN">
+            <label for="LN">LinkedIn</label><br>
+            <input type="checkbox" id="OT">
+            <label for="OT">Other Websites</label><br>
+            <br><hr>
+        </fieldset>
+        <p>
+            <textarea name="terms" cols="30" rows="4"readonly="readonly">Why do you want to be a part of the blog community?</textarea>
+        </p>
+        <br>
+        <p>
+            <input type="submit" name="submit" value="Send Form">
+            <input type="reset" value="Clear Form">
+        </p>
+        </form>
+        <br><br><br><br><br>
+    <footer style="background-color:black; text-align: center;">
+        <br><hr>
+        <p style="font-size:15px; color: aliceblue;">For more information about copyrights or about the content please contact me at <i>calinmch@yahoo.com</i></p>
+        <br>
+    </footer>
+</body>
+
+</html>
