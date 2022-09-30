@@ -1,0 +1,30 @@
+<html>
+    <head><title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <div class="form" id="formWrapper">
+            <form>
+                <div class="RightSide">
+                <input type="text" name="fname" placeholder="First Name" class="Names" id="firstName"><br><br>
+                <input type="text" name="lname" placeholder="Last Name" class="Names" id="lastName"><br><br>
+                <p><b>Gender</b></p>
+                <input name="gender" type="radio" value="Male" id="r1">
+                <label for="gm" id="label1">Male</label><br>
+                <div id ="gendercheck"></div>
+                <input name="gender" type="radio" value="Female" id="r2">
+                <label for="gf" id="label2">Female</label>
+                <br><br>
+                <textarea rows="8" cols="50" placeholder="Your message here..." id="text"></textarea>
+                <br><br>
+                <input type="button" name="submit" value="Submit" class="SubmitButton" onclick="GettingData()">
+                </div>
+                <div class= "LeftSide">
+                    <img src = "office.jpg">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

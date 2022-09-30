@@ -1,0 +1,30 @@
+button {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 50px;
+    color: green;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+button:hover {
+    color: red;
+    transform: scale(1.1);
+
+}
+
+
+body {
+    background-color: black;
+}
