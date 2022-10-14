@@ -1,10 +1,10 @@
 
-function GettingData() {
+function GetData() {
     var fName = document.getElementById("firstName").value;
     if (fName) {
         console.log("First name is -" + fName);
     }
-    if (fName == "") {
+    if (fName === "") {
         fNameStyle = document.getElementById("firstName").classList;
         fNameStyle.remove("Names");
         fNameStyle.add("NamesAfter");
@@ -18,7 +18,7 @@ function GettingData() {
     if (lName) {
         console.log("Last name is -" + lName);
     }
-    if (lName == "") {
+    if (lName === "") {
         lNameStyle = document.getElementById("lastName").classList;
         lNameStyle.remove("Names");
         lNameStyle.add("NamesAfter");
@@ -41,7 +41,7 @@ function GettingData() {
     if (textMessage) {
          console.log("Message is - " + textMessage);
     }
-    if (textMessage == "") {
+    if (textMessage === "") {
         textMessageStyle = document.getElementById("text").classList;
         textMessageStyle.add("textArea");
     } else {
@@ -62,5 +62,5 @@ function GettingData() {
         newP2.innerHTML = "X";
         newP.classList.add('divP');
         newP2.classList.add('divP');
-    }
+     }
     }
