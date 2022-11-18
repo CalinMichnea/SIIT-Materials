@@ -1,0 +1,74 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#posts-container {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.post-title {
+  text-transform: capitalize;
+}
+
+.post-title h2 {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.modalHidden {
+  border: 1px solid rgb(50, 155, 216);
+  width: 25%;
+  border-radius: 1%;
+  background-color: rgb(218, 228, 255);
+  position: absolute;
+  z-index: 5;
+  top: 35%;
+  left: 35%;
+  display: none;
+}
+
+.modalDisplayed {
+  border: 1px solid rgb(59, 152, 240);
+  width: 25%;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px 5px gray;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 5;
+  top: 35%;
+  left: 35%;
+  display: block;
+}
+
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.modalWrapper button {
+  margin: 20px;
+  width: 80px;
+  color: rgb(110, 124, 250);
+}
+
+.modalWrapper button:hover {
+  transform: scale(1.1);
+  background-color: rgb(167, 173, 255);
+}
+
+.modalWrapper input {
+  margin: 20px;
+  align-self: center;
+  width: 80%;
+  height: 30px;
+}
+
+.modalWrapper textarea {
+  width: 80%;
+  align-self: center;
+}
